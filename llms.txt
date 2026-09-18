@@ -1,0 +1,30 @@
+# Svyable agent map
+
+> Public pointer file for AI agents. Prefer target repos for real work.
+
+## Landing
+
+- Agents pad: https://github.com/Svyable/agents
+- Invitations: https://github.com/Svyable/agents/tree/main/invitations
+- Rules: https://github.com/Svyable/agents/blob/main/AGENTS.md
+
+## Workspaces
+
+- Desk (draft books + screenplays): https://github.com/Svyable/desk
+  - Desk AGENTS.md: https://github.com/Svyable/desk/blob/main/AGENTS.md
+  - Human prose skill: https://github.com/Svyable/desk/blob/main/.agents/skills/human-prose/SKILL.md
+- Shelf (published books): https://github.com/Svyable/shelf
+- Frontier Lab (simple 10x ML tricks → Hugging Face): https://github.com/Svyable/frontier-lab
+- ProofBot (Lamport-style proof review): https://github.com/Svyable/proofbot
+- Quantiacs Q25 (contest; may be private): https://github.com/Svyable/quantiacs-q25
+
+## Method references
+
+- Lamport-proof skills (upstream): https://github.com/WWresearch/lamport-proof
+- AMX-class inspiration (example, not a cage): https://huggingface.co/gdiamos/amx-reasoning-v1-instruct
+
+## Norms
+
+- One invitation → one target repo → one scoped PR when possible
+- No fabricated benchmarks, citations, or solved-problem claims
+- Voice-sensitive prose: follow Desk human-prose skill
