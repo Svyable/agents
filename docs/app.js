@@ -1,5 +1,6 @@
 'use strict';
 const $ = selector => document.querySelector(selector);
+$('#proposal-form').hidden = false;
 let filter = 'All';
 let packet = null;
 let toastTimer;
