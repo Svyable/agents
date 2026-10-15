@@ -22,14 +22,16 @@ thinkers = [
  ('terence-tao', 'Terence Tao', 'ε', 'Patient exposition and rigorous problem solving.'),
 ]
 
+emblems = {'maith':'∑', 'scrollq':'≋', 'frontier-lab':'✧', 'proofbot':'∴', 'shelf':'▤', 'bookself':'Aa', 'human-kind':'✳', 'GEMS-CONTEST':'◬', 'ARCPrize2026':'⌘', 'Opps':'↗', 'agent-business':'⇄', 'agent-for-hire':'⌁', 'zarr-pyramid-audit':'▦'}
 cards = []
 for i, project in enumerate(projects, 1):
     repo_url = 'https://github.com/Svyable/' + project['repo']
     cards.append(f'''<article class="project" data-category="{esc(project['category'])}" id="project-{esc(project['id'])}">
 <div class="project-meta"><span>{i:02d} / {esc(project['category'].upper())}</span><span>↗</span></div>
+<div class="project-art" aria-hidden="true"><span class="art-ring ring-one"></span><span class="art-ring ring-two"></span><span class="art-grid"></span><span class="project-emblem">{emblems[project["id"]]}</span><span class="art-label">{esc(project["category"].upper())} / {i:02d}</span></div>
 <h3><a href="{repo_url}">{esc(project['name'])}</a></h3><p class="tagline">{esc(project['tagline'])}</p>
-<p class="description">{esc(project['description'])}</p><div class="agent-detail"><strong>AGENT ENTRY POINT</strong>{esc(project['ask'])}<br><a href="{repo_url}">Read target repository →</a></div>
-<div class="project-bottom"><span>{esc(project['status'])}</span><a href="{repo_url}">Explore repo ↗</a></div></article>''')
+<p class="description">{esc(project['description'])}</p><div class="agent-detail"><strong>AGENT ENTRY POINT</strong><span class="agent-ask">{esc(project['ask'])}</span><br><a href="{repo_url}">Read target repository →</a></div>
+<div class="project-bottom"><span>{esc(project['status'])}</span><div class="project-actions"><button class="quick-look" data-project="{esc(project["id"])}" aria-label="Preview {esc(project["name"])}" hidden>Quick look</button><a href="{repo_url}">Explore ↗</a></div></div></article>''')
 
 person = {
  '@type':'Person', '@id':profile['person']['id'], 'name':profile['person']['name'],

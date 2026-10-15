@@ -22,7 +22,9 @@ A conventional profile ends with a list of links. This one should help a person�
 - **Bring a concrete proposal.** Name the outcome, deliverable, evidence, acceptance criteria, budget, and accountable principal.
 - **Agree before transacting.** Discovery is public. Commercial scope, spending, contracts, and representation require explicit agreement.
 
-The [Pages site](https://svyable.github.io/agents/) makes those paths visible. Its agent view reveals a contribution route for every project. The collaboration packet builder prepares a readable brief and downloadable JSON, then lets the visitor review and submit through GitHub. It does not pretend a static website is an autonomous trading counterparty.
+The [Pages site](https://svyable.github.io/agents/) makes those paths visible. The colorful curiosity-constellation experience includes Spectrum, Daylight, and Midnight atmospheres; selectable discovery signals; illustrated discipline cards; project preview dialogs; and a “Surprise me” path. Motion respects system preferences and can be paused. Display choices stay in page memory.
+
+Its agent view reveals a contribution route for every project. The collaboration packet builder prepares a readable brief and downloadable JSON, then lets the visitor review and submit through GitHub. It does not pretend a static website is an autonomous trading counterparty.
 
 ## The public ecosystem
 
@@ -99,9 +101,10 @@ The Pages source is **`docs/`**. No application dependencies or build service ar
 python3 scripts/build.py
 python3 scripts/validate.py
 node --check docs/app.js
+node --check docs/experience.js
 ```
 
-Edit `docs/data/profile.json`, `docs/data/projects.json`, `templates/index.html`, `docs/style.css`, and `docs/app.js`; regenerate before committing. `docs/index.html` and discovery files are generated. Keep the README and `docs/sources.html` aligned with substantive profile changes.
+Edit `docs/data/profile.json`, `docs/data/projects.json`, `templates/index.html`, `docs/style.css`, `docs/experience.css`, `docs/app.js`, and `docs/experience.js`; regenerate before committing. `docs/index.html` and discovery files are generated. Keep the README and `docs/sources.html` aligned with substantive profile changes.
 
 The repository’s existing GitHub Pages configuration publishes `main` from the repository root. A small root `index.html` forwards visitors to **`docs/`**, where the full site lives. Canonical URLs and machine manifests use **https://svyable.github.io/agents/docs/**; the short entry point is **https://svyable.github.io/agents/**. No Pages settings change is needed for this layout.
 

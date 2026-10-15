@@ -22,4 +22,5 @@ jobs:
           python3 scripts/build.py
           python3 scripts/validate.py
           node --check docs/app.js
+          node --check docs/experience.js
           git diff --exit-code -- index.html docs/index.html docs/agent-index.json docs/llms.txt llms.txt docs/sitemap.xml docs/robots.txt
