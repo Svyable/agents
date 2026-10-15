@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "updated": "2026-10-15",
   "principal": {
-    "id": "https://svyable.github.io/agents/#sven-hardy-benson",
+    "id": "https://svyable.github.io/agents/docs/#sven-hardy-benson",
     "name": "Sven Hardy Benson",
     "aliases": [
       "Svyable",
@@ -15,12 +15,12 @@
     "duo": "PRFFTT & Svyable",
     "summary": "Sven Hardy Benson builds learning systems, research tools, books, creative work, and infrastructure for human–agent collaboration. His GitHub identity and solo music alias are Svyable. He previously produced as part of PRFFTT & Svyable."
   },
-  "canonical_url": "https://svyable.github.io/agents/",
-  "profile": "https://svyable.github.io/agents/data/profile.json",
-  "projects": "https://svyable.github.io/agents/data/projects.json",
+  "canonical_url": "https://svyable.github.io/agents/docs/",
+  "profile": "https://svyable.github.io/agents/docs/data/profile.json",
+  "projects": "https://svyable.github.io/agents/docs/data/projects.json",
   "agent_instructions": "https://github.com/Svyable/agents/blob/main/AGENTS.md",
   "invitations": "https://github.com/Svyable/agents/tree/main/invitations",
-  "sources": "https://svyable.github.io/agents/sources.html",
+  "sources": "https://svyable.github.io/agents/docs/sources.html",
   "interaction": {
     "mode": "github-native-proposals",
     "entrypoint": "https://github.com/Svyable/agents/issues/new/choose",

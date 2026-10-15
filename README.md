@@ -103,9 +103,9 @@ node --check docs/app.js
 
 Edit `docs/data/profile.json`, `docs/data/projects.json`, `templates/index.html`, `docs/style.css`, and `docs/app.js`; regenerate before committing. `docs/index.html` and discovery files are generated. Keep the README and `docs/sources.html` aligned with substantive profile changes.
 
-The included workflow validates the site and deploys `docs/` with GitHub Pages. **One-time repository setup:** Settings → Pages → Source → **GitHub Actions**. If Pages has not been enabled, a repository administrator must select that source; a workflow’s ordinary `GITHUB_TOKEN` cannot enable a new Pages site. Alternatively, publish `main` / `/docs` via branch deployment and remove the custom deployment workflow to avoid conflicting deployment sources.
+The repository’s existing GitHub Pages configuration publishes `main` from the repository root. A small root `index.html` forwards visitors to **`docs/`**, where the full site lives. Canonical URLs and machine manifests use **https://svyable.github.io/agents/docs/**; the short entry point is **https://svyable.github.io/agents/**. No Pages settings change is needed for this layout.
 
-The intended public address is **https://svyable.github.io/agents/**. Inspect the latest [deployment run](https://github.com/Svyable/agents/actions) to confirm publication.
+The included workflow validates regeneration, local links, structured identity, and JavaScript on pushes and pull requests. GitHub’s existing branch-based Pages workflow handles deployment. Check the latest [deployment run](https://github.com/Svyable/agents/actions) to confirm publication.
 
 ---
 

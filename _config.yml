@@ -1,0 +1,5 @@
+# Existing Pages configuration serves main from the repository root.
+# Keep source tooling out of that root build; the public site lives in docs/.
+exclude:
+  - scripts
+  - templates

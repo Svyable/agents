@@ -67,6 +67,8 @@ for path, page in pages.items():
 profile = json.loads((DOCS/'data/profile.json').read_text())
 projects = json.loads((DOCS/'data/projects.json').read_text())
 manifest = json.loads((DOCS/'agent-index.json').read_text())
+require('url=docs/' in (ROOT/'index.html').read_text(), 'Root entry must route to docs')
+require(profile['canonical_url'] == 'https://svyable.github.io/agents/docs/', 'Canonical mount differs from deployed Pages layout')
 require(len(projects) == manifest['project_count'], 'Manifest project count drift')
 require(len({p['id'] for p in projects}) == len(projects), 'Duplicate project id')
 require(len({p['repo'] for p in projects}) == len(projects), 'Duplicate project repo')

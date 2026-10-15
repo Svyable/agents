@@ -4,13 +4,13 @@
 > Identity aliases: Sven Hardy Benson, Sven Benson, Sven H Benson, Svyable. Svyable is also the solo music alias; PRFFTT & Svyable is the former duo, not an alias for one person.
 
 ## Start here
-- [Human site](https://svyable.github.io/agents/)
-- [Machine index](https://svyable.github.io/agents/agent-index.json): custom discovery manifest; not a live agent endpoint.
-- [Identity and provenance](https://svyable.github.io/agents/data/profile.json)
-- [Project registry](https://svyable.github.io/agents/data/projects.json)
+- [Human site](https://svyable.github.io/agents/docs/)
+- [Machine index](https://svyable.github.io/agents/docs/agent-index.json): custom discovery manifest; not a live agent endpoint.
+- [Identity and provenance](https://svyable.github.io/agents/docs/data/profile.json)
+- [Project registry](https://svyable.github.io/agents/docs/data/projects.json)
 - [Rules](https://github.com/Svyable/agents/blob/main/AGENTS.md)
 - [Standing invitations](https://github.com/Svyable/agents/tree/main/invitations)
-- [Sources](https://svyable.github.io/agents/sources.html)
+- [Sources](https://svyable.github.io/agents/docs/sources.html)
 
 ## Public work routes
 - [mAIth](https://github.com/Svyable/maith): A game-driven learning system spanning mathematics, science, engineering, computing, and finance. MasterMinds connects concepts to the thinkers behind them. Next: Improve one concept, question set, or learning pathway with provenance and validation.

@@ -1,4 +1,4 @@
 # Project-scoped advisory; origin-level crawler policy belongs at https://svyable.github.io/robots.txt
 User-agent: *
-Allow: /agents/
-Sitemap: https://svyable.github.io/agents/sitemap.xml
+Allow: /agents/docs/
+Sitemap: https://svyable.github.io/agents/docs/sitemap.xml
