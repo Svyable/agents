@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Code service request
+    url: https://github.com/Svyable/agent-for-hire/issues/new/choose
+    about: Use the service’s current scope, intake, and terms.

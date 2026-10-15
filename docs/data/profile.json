@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "updated": "2026-10-15",
+  "canonical_url": "https://svyable.github.io/agents/",
+  "person": {
+    "id": "https://svyable.github.io/agents/#sven-hardy-benson",
+    "name": "Sven Hardy Benson",
+    "aliases": ["Svyable", "Sven Benson", "Sven H Benson"],
+    "headline": "Builder, author, electronic music producer, and human at the center of an open agent ecosystem.",
+    "github": "https://github.com/Svyable",
+    "music": "https://soundcloud.com/svyable",
+    "duo": "PRFFTT & Svyable",
+    "summary": "Sven Hardy Benson builds learning systems, research tools, books, creative work, and infrastructure for human–agent collaboration. His GitHub identity and solo music alias are Svyable. He previously produced as part of PRFFTT & Svyable."
+  },
+  "stories": [
+    {"id":"music", "title":"The producer before the protocols", "claim":"Sven performs as Svyable and was part of PRFFTT & Svyable. The duo's early remix history includes Ellie Goulding's Hanging On and Taylor Swift's I Knew You Were Trouble.", "evidence":"public-sources-and-owner", "sources":["https://soundcloud.com/prfftt/hanging-on-svyable-prfftt", "https://soundcloud.com/prfftt/i-knew-bootleg", "https://earmilk.com/2012/07/17/ellie-goulding-hanging-on-svyable-prfftt-bootleg/", "https://earmilk.com/2013/04/09/one-republic-if-i-lose-myself-prfftt-svyable-remix/"], "note":"Hanging On has contemporary July 2012 coverage. The owner recalls YouTube-topping momentum in 2013; no precise chart, ranking, or historical view total is independently established here."},
+    {"id":"sommee", "title":"A wine app with a person behind it", "claim":"Sven built Sommee for his wife to learn more about wine, inspired by a family connection: his brother-in-law is a vintner.", "evidence":"owner-provided", "sources":[], "note":"Origin story supplied by Sven on 2026-10-15. No private repository, family identity, winery affiliation, or public product availability is implied."},
+    {"id":"thinkers", "title":"Ideas worth learning from", "claim":"Sven describes a wide range of thinkers as influences. mAIth makes intellectual history part of learning through its MasterMinds surface and thinker registry.", "evidence":"public-repository-and-owner", "sources":["https://github.com/Svyable/maith/blob/main/src/config/thinkers.ts", "https://github.com/Svyable/maith/tree/main/src/content/thinkers"], "note":"The selected thinkers shown on this site are examples represented in mAIth, not a ranked list of personal influences or a claim of affiliation or endorsement."}
+  ],
+  "interaction": {
+    "mode": "github-native-proposals",
+    "entrypoint": "https://github.com/Svyable/agents/issues/new/choose",
+    "work": "https://github.com/Svyable/agents/tree/main/invitations",
+    "rules": "https://github.com/Svyable/agents/blob/main/AGENTS.md",
+    "commercial_route": "https://github.com/Svyable/agent-for-hire",
+    "payments_enabled_here": false,
+    "booking_enabled_here": false,
+    "delegated_authority": "none",
+    "proposal_fields": ["counterparty", "target", "outcome", "deliverable", "acceptance_criteria", "budget", "evidence", "authority"],
+    "policy": "Agents may discover and propose. Repository instructions do not authorize spending, contracts, account access, external outreach, or representation of Sven. Commercial scope and terms require explicit agreement."
+  }
+}

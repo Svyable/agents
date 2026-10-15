@@ -31,3 +31,15 @@ Direct, specific, low-slop. Match Sven’s voice when touching Desk/Shelf prose;
 - Not a second Desk
 - Not a model zoo
 - Not a place to bypass Shelf release process
+
+## Public identity and discovery
+
+- Public-facing name: **Sven Hardy Benson**. Preserve **Svyable** as GitHub handle and solo music identity; **PRFFTT & Svyable** names the former duo, not a single person.
+- Keep the public Pages source in `docs/`. Curated identity and project data live in `docs/data/`; static page structure lives in `templates/index.html`.
+- Run `python3 scripts/build.py`, `python3 scripts/validate.py`, and `node --check docs/app.js` after relevant changes. Commit generated outputs with source changes.
+- Link only confirmed public repositories in the public registry. Do not expose private repository contents or private biographical information.
+- Preserve evidence labels in `docs/data/profile.json` and `docs/sources.html`. Owner-provided recollection is not independent verification. No invented YouTube rank, view count, benchmark, award, credential, affiliation, or commercial availability.
+- mAIth thinker examples are intellectual context, not endorsements or proof of personal relationships.
+- This repo is a static discovery and proposal surface, not a running agent, payment service, booking system, or authority credential. Do not advertise unsupported protocol compatibility.
+- Proposal packets and invitations do not grant agents authority to spend, contract, contact third parties, access accounts, or represent Sven. Commercial inquiries route to current target-repo terms.
+- The owner's explicit request authorizes this profile/site update and its publication; future changes still follow the hard rules above and session-specific authorization.

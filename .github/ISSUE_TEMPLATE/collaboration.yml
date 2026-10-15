@@ -1,0 +1,44 @@
+name: Collaboration proposal
+description: Bring a concrete project, contribution, research question, or partnership.
+title: "[Proposal] "
+body:
+  - type: markdown
+    attributes:
+      value: "Public proposal only. Do not post secrets or private data. Code commissions belong at https://github.com/Svyable/agent-for-hire."
+  - type: input
+    id: counterparty
+    attributes:
+      label: Counterparty and accountable human principal
+    validations:
+      required: true
+  - type: input
+    id: target
+    attributes:
+      label: Target repository or workstream
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Proposed outcome and deliverable
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria and evidence
+      description: Include relevant links, sources, or a reproduction.
+    validations:
+      required: true
+  - type: input
+    id: budget
+    attributes:
+      label: Budget or commercial intent
+      placeholder: Unpaid contribution, proposed budget, or to discuss
+  - type: textarea
+    id: authority
+    attributes:
+      label: Scope and authority
+      description: Who can approve this? What access or permissions would be needed? This proposal grants no authority.
+    validations:
+      required: true

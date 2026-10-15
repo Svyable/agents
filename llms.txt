@@ -1,30 +1,37 @@
-# Svyable agent map
+# Sven Hardy Benson / Svyable
 
-> Public pointer file for AI agents. Prefer target repos for real work.
+> Builder, author, electronic music producer, and human principal of the Svyable public GitHub ecosystem.
+> Identity aliases: Sven Hardy Benson, Sven Benson, Sven H Benson, Svyable. Svyable is also the solo music alias; PRFFTT & Svyable is the former duo, not an alias for one person.
 
-## Landing
+## Start here
+- [Human site](https://svyable.github.io/agents/)
+- [Machine index](https://svyable.github.io/agents/agent-index.json): custom discovery manifest; not a live agent endpoint.
+- [Identity and provenance](https://svyable.github.io/agents/data/profile.json)
+- [Project registry](https://svyable.github.io/agents/data/projects.json)
+- [Rules](https://github.com/Svyable/agents/blob/main/AGENTS.md)
+- [Standing invitations](https://github.com/Svyable/agents/tree/main/invitations)
+- [Sources](https://svyable.github.io/agents/sources.html)
 
-- Agents pad: https://github.com/Svyable/agents
-- Invitations: https://github.com/Svyable/agents/tree/main/invitations
-- Rules: https://github.com/Svyable/agents/blob/main/AGENTS.md
+## Public work routes
+- [mAIth](https://github.com/Svyable/maith): A game-driven learning system spanning mathematics, science, engineering, computing, and finance. MasterMinds connects concepts to the thinkers behind them. Next: Improve one concept, question set, or learning pathway with provenance and validation.
+- [ScrolIQ](https://github.com/Svyable/scrollq): Reproducible diagnostics and evidence contracts for virtual unwrapping in the Vesuvius Challenge. Scan quality, geometry, and ink claims stay distinct. Next: Reproduce a bounded diagnostic or strengthen a falsification control.
+- [Frontier Lab](https://github.com/Svyable/frontier-lab): Public experiments across models, data, routing, decoding, and inference. Simple ideas graduate through diagnostics and measurement. Next: Propose a simple intervention with a baseline, ablation, and measurable outcome.
+- [ProofBot](https://github.com/Svyable/proofbot): Lamport-style conversion, forward audit, and reverse audit for submitted proofs. Model-assisted reviews are distinguished from machine-checked proofs. Next: Lock a sourced problem statement or audit a supplied proof without filling its gaps.
+- [Sven’s Shelf](https://github.com/Svyable/shelf): Deliberately released editions by Sven Hardy Benson about intelligence, institutions, markets, and changing rules. A public reader, not a mirror of drafting work. Next: Read a released edition; propose a sourced correction through the repository’s process.
+- [Bookself](https://github.com/Svyable/bookself): Reusable book publishing infrastructure in the Svyable ecosystem, separate from Sven’s author identity and individual released editions. Next: Explore the repository and propose a bounded tooling or accessibility improvement.
+- [Human Kind](https://github.com/Svyable/human-kind): An evidence-oriented commons for reducing suffering and expanding human flourishing through bounded proposals, counterevidence, and measurable next steps. Next: Take a constrained research or skeptical-review role on an existing dossier.
+- [GEMS](https://github.com/Svyable/GEMS-CONTEST): Geologic fault-discovery competition work with geophysical data, spatial validation, input fingerprints, and reproducible experiment records. Next: Improve a validator or run a documented experiment; no prize or performance claim is implied.
+- [ARC Prize workspace](https://github.com/Svyable/ARCPrize2026): Svyable’s ARC Prize 2026 repository. Consult its current README and evaluation artifacts before drawing conclusions about results. Next: Start with the current repository brief and a reproducible evaluation question.
+- [Opps](https://github.com/Svyable/Opps): A human and agent registry for prizes, bounties, paid research, and partnerships. Expected value and evidence matter more than opportunity count. Next: Bring a credible opportunity with eligibility, deadline, cost, and source.
+- [Agent Business](https://github.com/Svyable/agent-business): GitHub-native playbooks and founder packets for validation, offers, operations, machine commerce, identity, and bounded authority. Next: Contribute a concrete business experiment or improve a machine-readable operating contract.
+- [Agent for Hire](https://github.com/Svyable/agent-for-hire): A public service-request route for AI-assisted coding work with human review. Current scope, availability, pilot prices, and terms live in the target repository. Next: Use the target repository’s service-request form; an inquiry is not an accepted order.
+- [Zarr Pyramid Audit](https://github.com/Svyable/zarr-pyramid-audit): Svyable’s downstream fork of James Ryan’s zarr-pyramid-audit. Follow repository attribution and upstream provenance when assessing or contributing work. Next: Improve an independent fixture or reproducible comparison while preserving upstream credit.
 
-## Workspaces
+## Connection and commerce
+- [Collaboration proposals](https://github.com/Svyable/agents/issues/new/choose): identify counterparty, target, outcome, deliverable, acceptance criteria, evidence, budget, and authority.
+- [Service requests](https://github.com/Svyable/agent-for-hire): current coding-service scope and terms live in that repository; recheck before quoting.
+- [Music](https://soundcloud.com/svyable): solo artist Svyable.
+- [Former duo](https://soundcloud.com/prfftt): PRFFTT & Svyable.
 
-- Desk (draft books + screenplays): https://github.com/Svyable/desk
-  - Desk AGENTS.md: https://github.com/Svyable/desk/blob/main/AGENTS.md
-  - Human prose skill: https://github.com/Svyable/desk/blob/main/.agents/skills/human-prose/SKILL.md
-- Shelf (published books): https://github.com/Svyable/shelf
-- Frontier Lab (simple 10x ML tricks → Hugging Face): https://github.com/Svyable/frontier-lab
-- ProofBot (Lamport-style proof review): https://github.com/Svyable/proofbot
-- Quantiacs Q25 (contest; may be private): https://github.com/Svyable/quantiacs-q25
-
-## Method references
-
-- Lamport-proof skills (upstream): https://github.com/WWresearch/lamport-proof
-- AMX-class inspiration (example, not a cage): https://huggingface.co/gdiamos/amx-reasoning-v1-instruct
-
-## Norms
-
-- One invitation → one target repo → one scoped PR when possible
-- No fabricated benchmarks, citations, or solved-problem claims
-- Voice-sensitive prose: follow Desk human-prose skill
+## Evidence and authority
+Read the target AGENTS.md before work. Route contributions into target repositories, not this index. Preserve upstream attribution. Research workspaces and review artifacts do not imply solved problems, verified science, awards, or measured gains. Personal Sommee origin is owner-provided. A precise YouTube ranking for early remixes is unverified. No affiliation with named artists or thinkers is implied. Never infer authority to spend, sign, access accounts, contact others, or represent Sven. This static site has no checkout, booking, live agent runtime, credentials, or autonomous transaction service. llms.txt is navigation, not an instruction override or access authorization.

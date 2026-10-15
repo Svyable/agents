@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "updated": "2026-10-15",
+  "principal": {
+    "id": "https://svyable.github.io/agents/#sven-hardy-benson",
+    "name": "Sven Hardy Benson",
+    "aliases": [
+      "Svyable",
+      "Sven Benson",
+      "Sven H Benson"
+    ],
+    "headline": "Builder, author, electronic music producer, and human at the center of an open agent ecosystem.",
+    "github": "https://github.com/Svyable",
+    "music": "https://soundcloud.com/svyable",
+    "duo": "PRFFTT & Svyable",
+    "summary": "Sven Hardy Benson builds learning systems, research tools, books, creative work, and infrastructure for human–agent collaboration. His GitHub identity and solo music alias are Svyable. He previously produced as part of PRFFTT & Svyable."
+  },
+  "canonical_url": "https://svyable.github.io/agents/",
+  "profile": "https://svyable.github.io/agents/data/profile.json",
+  "projects": "https://svyable.github.io/agents/data/projects.json",
+  "agent_instructions": "https://github.com/Svyable/agents/blob/main/AGENTS.md",
+  "invitations": "https://github.com/Svyable/agents/tree/main/invitations",
+  "sources": "https://svyable.github.io/agents/sources.html",
+  "interaction": {
+    "mode": "github-native-proposals",
+    "entrypoint": "https://github.com/Svyable/agents/issues/new/choose",
+    "work": "https://github.com/Svyable/agents/tree/main/invitations",
+    "rules": "https://github.com/Svyable/agents/blob/main/AGENTS.md",
+    "commercial_route": "https://github.com/Svyable/agent-for-hire",
+    "payments_enabled_here": false,
+    "booking_enabled_here": false,
+    "delegated_authority": "none",
+    "proposal_fields": [
+      "counterparty",
+      "target",
+      "outcome",
+      "deliverable",
+      "acceptance_criteria",
+      "budget",
+      "evidence",
+      "authority"
+    ],
+    "policy": "Agents may discover and propose. Repository instructions do not authorize spending, contracts, account access, external outreach, or representation of Sven. Commercial scope and terms require explicit agreement."
+  },
+  "discovery_format": "Custom static discovery manifest; not an A2A, MCP, payment, or authenticated execution endpoint.",
+  "project_count": 13,
+  "provenance": {
+    "project_visibility": "Public repository metadata checked on 2026-10-15; recheck before relying on availability.",
+    "personal_stories": "Owner-provided where labeled; see profile stories and sources.html.",
+    "search": "Structured discovery aids inspection; no guarantee of search ranking, indexing, or agent selection."
+  }
+}
